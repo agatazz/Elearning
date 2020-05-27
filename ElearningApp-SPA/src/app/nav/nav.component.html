@@ -1,19 +1,19 @@
 
       <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
-          <a class="navbar-brand" href="#">App</a>
+          <a class="navbar-brand" [routerLink]="['/home']">App</a>
         
   
         
           <ul *ngIf="loggedIn()" class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home Page</a>
+            <li class="nav-item" routerLinkActive="active">
+              <a class="nav-link" [routerLink]="['/startpage']" >Start Page</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Lists</a>
+            <li class="nav-item" routerLinkActive="active">
+              <a class="nav-link" [routerLink]="['/exercises']">List of exercises</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Add exercise</a>
+            <li class="nav-item" routerLinkActive="active">
+              <a class="nav-link" [routerLink]="['/add']">Add exercise</a>
             </li>
             
           </ul>
