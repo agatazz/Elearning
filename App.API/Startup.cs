@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using App.API.Data;
 using App.API.ErrorHandler;
+using AutoMapper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics;
@@ -36,9 +37,11 @@ namespace App.API
         {
             services.AddDbContext<DataContext>(x =>x.UseSqlite
             (Configuration.GetConnectionString("DefaultConnection")));
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson();
             services.AddCors();
+            services.AddAutoMapper(typeof(ValuesRepository).Assembly);
             services.AddScoped<IAuthRepository,AuthRepository>();
+            services.AddScoped<IValuesRepository,ValuesRepository>();
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>{
                 options.TokenValidationParameters=new TokenValidationParameters{
                     ValidateIssuerSigningKey=true,

@@ -1,11 +1,11 @@
-namespace App.API.Models
+namespace App.API.Dtos
 {
-    public class Value
+    public class ValuesForListDto
     {
-        public int Id { get; set; }
+        
         public string Name { get; set; }
         public string Specialization { get; set; }
         public string Desription { get; set; }
-        public string Contact { get; set; }
+        
     }
 }

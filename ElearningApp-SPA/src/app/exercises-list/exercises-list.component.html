@@ -1,3 +1,7 @@
-<p>
-  exercises-list works!
-</p>
+<div class="container mt-5">
+  <div class="row">
+    <div *ngFor="let value of values" class="col-lg-2 col-md-3 col-sm-6">
+      <app-values-card [value]="value"></app-values-card>
+    </div>
+  </div>
+</div>

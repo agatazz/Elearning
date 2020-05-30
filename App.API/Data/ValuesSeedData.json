@@ -1,0 +1,111 @@
+[
+  {
+    "Name": "Math Statistic problem",
+    "Specialization": "Math",
+    "Desription": "We measured the height (value X) and the weight (value Y) of ten students; the values are shown in the table below. Find the arithmetic means Arithmetic mean of the measured heights and Arithmetic mean of the measured weights, fill in the table and determine the correlation coefficient between the measured height and weight of the students.",
+    "Contact": "test@email.com"
+  },
+  {
+    "Name": "Biology quiz question",
+    "Specialization": "Biology",
+    "Desription": "The lymphatic and immune systems contain the lymphatic vessels and ducts, lymph nodes, bone marrow, and spleen.A)trueB)False",
+    "Contact": "test1@email.com"
+  },
+  {
+    "Name": "English grammar question",
+    "Specialization": "English",
+    "Desription": "Rewrite the sentence in your head (or on scratch paper), following the directions given below. Keep in mind that your new sentence should be well-written and should have essentially the same meaning as the sentence given",
+    "Contact": "random@email.com"
+  },
+  {
+    "Name": "History essay.",
+    "Specialization": "History",
+    "Desription": "How did Christianity succeed in becoming so widespread in the period up to Diocletian despite the Roman persecution of Christians?",
+    "Contact": "john@email.com"
+  },
+  {
+    "Name": "Physics problem",
+    "Specialization": "Physics",
+    "Desription": "What size resistor should be connected across the terminals of a 12V battery to produce a current of 500mA",
+    "Contact": "mailexample@gmail.com"
+  },
+  {
+    "Name": "Physics problem",
+    "Specialization": "Physics",
+    "Desription": "What size resistor should be connected across the terminals of a 12V battery to produce a current of 500mA",
+    "Contact": "mailexample@gmail.com"
+  },
+  {
+    "Name": "Physics problem",
+    "Specialization": "Physics",
+    "Desription": "If the battery is selected to be 24V, what should the resistance of the heating element be if the radiated power is to total 60W",
+    "Contact": "mailexample@gmail.com"
+  },
+  {
+    "Name": "Physics problem",
+    "Specialization": "Physics",
+    "Desription": "What size resistor should be connected across the terminals of a 12V battery to produce a current of 500mA?",
+    "Contact": "mailexample@gmail.com"
+  },
+  {
+    "Name": "Physics problem",
+    "Specialization": "Physics",
+    "Desription": "What is the RMS voltage of a 100V peak-to-peak AC current?",
+    "Contact": "mailexample@gmail.com"
+  },
+  {
+    "Name": "History problem",
+    "Specialization": "History",
+    "Desription": "During the Reign of Joseph Stalin in Russia, what was the main philosophy adopted by Russia?",
+    "Contact": "helpme@gmail.com"
+  },
+  {
+    "Name": "History question",
+    "Specialization": "History",
+    "Desription": "The first of the great mathematicians whose book on the fundamentals of geometry became a standard text for the next 2,000 years was",
+    "Contact": "mailexample@gmail.com"
+  },
+  {
+    "Name": "I have a question about history",
+    "Specialization": "History",
+    "Desription": "Describe and analyze the processes by which a distinctively American identity was created and changed over time. What historical forces and events helped to forge this identity? In what specific ways has this identity been contested? Has this identity been broad and inclusive, or has it tended to create un-American or non-American Others?",
+    "Contact": "mailexample@gmail.com"
+  },
+  {
+    "Name": "Can somebody help me with this question",
+    "Specialization": "History",
+    "Desription": "Throughout history, powerful elites have dominated (socially, politically, economically). How do the relatively less powerful and the truly disenfranchised (as variously defined, depending on the era and region in question) fit into history? To what degree are they merely victims or puppets of the elite? To what extent are they active shapers of history? Explain the most salient examples over time.",
+    "Contact": "mailexample@gmail.com"
+  },
+  {
+    "Name": "Can somebody help me solve this?",
+    "Specialization": "Math",
+    "Desription": "A car averages  31.7 miles  per gallon  and has  an 11. gallon   gas  tank.  What  is  the  furthest  distance  the car can travel  without  stopping  for gas? State  your  answer   using   the  correct  number  o f  s ignif ic a n t   d igits",
+    "Contact": "mailexample@gmail.com"
+  },
+  {
+    "Name": "Physics quiz",
+    "Specialization": "Physics",
+    "Desription": "The low temperature reservoir of theheat reservoirs is known as?",
+    "Contact": "mailexample@gmail.com"
+  },
+  {
+    "Name": "Physics question",
+    "Specialization": "Physics",
+    "Desription": "What refers to a metal combined with one or more other elements? ",
+    "Contact": "mailexample@gmail.com"
+  },
+  {
+    "Name": "Geology problem",
+    "Specialization": "Geology",
+    "Desription": "What are the parameters used to check the significance of landslide causative factors?",
+    "Contact": "mailexample@gmail.com"
+  },
+  {
+    "Name": "Geology problem",
+    "Specialization": "Geology",
+    "Desription": "What is the relationship between land subsidence and desertification or land degradation?",
+    "Contact": "mailexample@gmail.com"
+  }
+
+]

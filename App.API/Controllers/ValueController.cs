@@ -1,39 +1,37 @@
-using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using App.API.Data;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace App.API.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        private readonly DataContext _context;
-        public ValuesController(DataContext context)
+        private DataContext _context;
+        private readonly IValuesRepository _repo;
+        public ValuesController(IValuesRepository repo,DataContext context)
         {
-            _context = context;
+            _repo = repo;
+            _context= context;
 
         }
-        [AllowAnonymous]
         [HttpGet]
         public async Task<IActionResult> GetValues()
         {
-            var values = await _context.Values.ToListAsync();
+            var values = await _repo.GetValues();
 
             return Ok(values);
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetValue(int id)
+        public IActionResult GetValue(int id)
         {
-            var value=await _context.Values.FirstOrDefaultAsync(x => x.Id==id);
+            var value=_context.Values.FirstOrDefault( x=> x.Id == id);
 
             return Ok(value);
         }

@@ -1,6 +1,6 @@
-namespace App.API.Models
+namespace App.API.Dtos
 {
-    public class Value
+    public class ValuesDitailed
     {
         public int Id { get; set; }
         public string Name { get; set; }
