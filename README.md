@@ -20,8 +20,8 @@
 4. Użytkownik może dodać zadanie z którym ma problem 
 
 ## Bezpieczeństwo 
-# Aby osoba odwiedzająca strone mogła przeglądać zadania lub dodać swoje własne,musi najpierw założyć konto lub zalogować się.
-# Aplikacja posiada chronione routy jak i również zabezpieczone API
+### Aby osoba odwiedzająca strone mogła przeglądać zadania lub dodać swoje własne,musi najpierw założyć konto lub zalogować się.
+### Aplikacja posiada chronione routy jak i również zabezpieczone API
 
 
 ### Technologie
