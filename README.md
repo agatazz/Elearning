@@ -30,3 +30,21 @@ Aplikacja posiada chronione routy,zabezpieczone API oraz walidację formularzy
 1. Angular
 2. .Net Core
 3. Bootstrap
+
+### Wygląd aplikacji
+
+## Strona logowania
+
+![Alt Text](https://i.ibb.co/pdHBxH3/Screenshot-12.png)
+
+## Strona startowa
+
+![Alt Text](https://i.ibb.co/KKtJy0X/Screenshot-13.png)
+
+## Strona z zadaniami
+
+![Alt Text](https://i.ibb.co/MMc5bMq/Screenshot-14.png)
+
+## Strona z formularzem do przesłania zadań
+
+![Alt Text](https://i.ibb.co/wYhK4Wf/Screenshot-16.png)
