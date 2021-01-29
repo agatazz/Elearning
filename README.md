@@ -1,6 +1,6 @@
 # Elearning Angular Application
 
-## Aplikacja umożlwiiająca studentom wzajemną pomoc w rozwiązywaniu zadań
+## Aplikacja umożliwiająca studentom wzajemną pomoc w rozwiązywaniu zadań
 
 ## Uruchomienie aplikacji
 
