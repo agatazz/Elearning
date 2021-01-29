@@ -8,7 +8,7 @@
 
 `dotnet run`
 
-###Uruchomienie forntendu
+### Uruchomienie forntendu
 
 `npm start`
 
