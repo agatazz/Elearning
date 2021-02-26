@@ -12,7 +12,7 @@
 
 `npm start`
 
-## Funkcjonalność 
+## Funkcjonalności
 
 1. Użytkownik może założyć konto i zalogować się na nie
 2. Użytkownik może przeglądać zadania 
@@ -20,9 +20,9 @@
 
 
 ## Bezpieczeństwo 
-Aby osoba odwiedzająca strone mogła przeglądać zadania lub dodać swoje własne,musi najpierw założyć konto lub zalogować się.
+Osoba odwiedzająca stronę musi założyć lub zalogować się na istniejące konto aby móc przeglądać lub dodać zadania.
 
-Aplikacja posiada chronione routy,zabezpieczone API oraz walidację formularzy
+Aplikacja posiada chronione routy,zabezpieczone API oraz walidację formularzy.
 
 
 ### Technologie
