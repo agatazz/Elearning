@@ -15,9 +15,9 @@
 ## Funkcjonalność 
 
 1. Użytkownik może założyć konto i zalogować się na nie
-2. Użytkownik może przeglądać zadania z któymi inni studenci mieli problem i jeżeli chce im pomóc może się z nimi skontaktować drogą mailową
+2. Użytkownik może przeglądać zadania 
 3. Użytkownik może filtrować dodane zadania poprzez wpisanie nazwy przedmiotu
-4. Użytkownik może dodać zadanie z którym ma problem 
+
 
 ## Bezpieczeństwo 
 Aby osoba odwiedzająca strone mogła przeglądać zadania lub dodać swoje własne,musi najpierw założyć konto lub zalogować się.
@@ -27,9 +27,10 @@ Aplikacja posiada chronione routy,zabezpieczone API oraz walidację formularzy
 
 ### Technologie
 
-1. Angular
-2. .Net Core
-3. Bootstrap
+1. Angular Version 9.1.9
+2. .Net Core Version 3.0.0
+3. Bootstrap Version 4.3.1
+4. SQL Lite Version 3.11.2
 
 ### Wygląd aplikacji
 
